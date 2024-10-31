@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    user:
+      name: "Shanal"
+      password: "1"
+
+  datasource:
+    url: "jdbc:mysql://localhost:3307/springsecurity"
+    username: "root"
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: update
